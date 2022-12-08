@@ -1,0 +1,16 @@
+import requests
+from bs4 import BeautifulSoup
+
+main_url = 'https://en.wikipedia.org/wiki/Special:Random'
+
+# get the html content from the main url
+main_page = requests.get(main_url).text
+
+# parse the html content
+soup = BeautifulSoup(main_page, 'html.parser')
+
+# find the first paragraph of the page
+first_paragraph = soup.find('p').text
+
+# print the first paragraph
+print(first_paragraph)
