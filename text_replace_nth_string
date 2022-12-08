@@ -1,0 +1,13 @@
+text = input("Please enter a text: ")
+
+words = text.split(" ")
+
+output = []
+
+for i, word in enumerate(words):
+    if (i + 1) % 3 == 0:
+        output.append("___")
+    else:
+        output.append(word)
+
+print(" ".join(output))
