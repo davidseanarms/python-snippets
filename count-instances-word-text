@@ -1,0 +1,19 @@
+# Ask for text input
+text = input("Please enter some text: ")
+
+# Ask for the specific word
+word = input("Please enter a specific word: ")
+
+# Split the text into words
+words = text.split(" ")
+
+# Initialize a counter
+count = 0
+
+# Loop over the words and count instances of the specific word
+for w in words:
+    if w == word:
+        count += 1
+
+# Print the result
+print("The word '" + word + "' appears " + str(count) + " times in the text.")
