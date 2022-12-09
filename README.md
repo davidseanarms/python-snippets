@@ -1,2 +1,2 @@
 # python-snippets
-Python Snippets as I complete courses, read, learn, improve.
+Python snippets as I complete courses, read books and tutorials, learn, complete client work and improve.
