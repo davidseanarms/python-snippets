@@ -1,0 +1,40 @@
+Pre-coding Python Flask App File/Folder structure for a cinema booking system app.
+
+Root, templates, static, models, tests.
+
+#1. Root Directory
+
+- app.py
+- config.py
+- requirements.txt
+- .env
+
+#2. /templates Directory
+
+- base.html
+- index.html
+- booking.html
+- payment.html
+- confirmation.html
+
+#3. /static Directory
+
+- main.css
+- main.js
+- images/
+
+#4. /models Directory
+
+- cinema.py
+- movie.py
+- customer.py
+- booking.py
+- payment.py
+
+#5. /tests Directory
+
+- cinema_test.py
+- movie_test.py
+- customer_test.py
+- booking_test.py
+- payment_test.py
