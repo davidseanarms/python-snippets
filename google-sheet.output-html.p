@@ -1,3 +1,4 @@
+# This program takes a link to a Google Sheet and converts it into an HTML file.
 # Import libraries
 import pandas as pd
 import requests
