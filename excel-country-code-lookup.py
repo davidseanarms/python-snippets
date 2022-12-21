@@ -1,4 +1,3 @@
-#Refactored code
 import csv
 import xlrd ## xlrd is a library for reading data and formatting information from Excel files in the historical .xls format.
 
